@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>关于我</title>
+    <style media="screen">
+      *{margin: 0;padding: 0;}
+      #box{
+        width:400px;
+          height:580px;
+        margin: 20px auto;
+        overflow: hidden;
+      }
+       #box img{
+         width:400px;
+         height:580px;
+          display: none;
+          position: relative;
+        }
+        #box img.show{
+          display: block;
+        }
+        #box .lists{
+          position: absolute;
+          top:180px;
+          left:20%;
+        }
+        #box .lists li{
+          font-size: 24px;
+          padding-left: 16px;
+          background-color: #fff;
+          margin-right: 10px;
+              list-style-type:disc;
+        }
+        #box .lists li.on{
+          background-color: #EFF9FC;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="box">
+      <img class='show' src="./img/12.jpg" alt="">
+      <img src="./img/11.jpg" alt="">
+      <img src="./img/22.jpg" alt="">
+      <img src="./img/33.jpg" alt="">
+      <ul class="lists">
+          <li class='on'></li></br>
+          <li class='on'></li></br>
+          <li class='on'></li></br>
+          <li class='on'></li></br>
+      </ul>
+    </div>
+  </body>
+</html>
+<script type="text/javascript">
+    var li = document.getElementsByTagName('li');//获取页面中所有的li标签
+    var imgs = document.getElementsByTagName('img');//获取页面中所有的img标签
+    var li_len = li.length; //li标签的个数 8
+    var img_len = imgs.length; //img标签的个数
+    //给每一个li添加鼠标移动上去的事件
+    for(var i=0;i<li_len;i++){
+      li[i].index = i; //赋值下标
+      li[i].onmouseover = function(){
+          //改变相对应的css
+          //先清空一次li的class名字
+          for(var j=0;j<li_len;j++){
+            li[j].className = '';
+          }
+          this.className='on'; //添加红色背景色
+          //清空img标签上面的clas='show'
+          for(var k=0;k<img_len;k++){
+            imgs[k].className='';
+          }
+          imgs[this.index].className='show';
+      }
+    }
+
+</script>

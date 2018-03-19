@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Microsoft Yahei';
+}
+a{text-decoration: none;color:#666;}
+li{list-style-type: none}
+/*头部部分*/
+#headBox{
+  width:990px;
+  margin: 0px auto;
+  padding-top: 10px;
+}
+#headBox .hb-2{
+  display: block;
+  float: left;
+  position: relative;
+  left: 859px;
+  top: -22px;
+  font-size: 12px;
+}
+#headBox .hb-2 .con0{
+  position: relative;
+  top: -4px;
+}
+#headBox .hb-2 a:hover{
+  color:red;
+  text-decoration: underline;
+}
+#headBox .hb-3 .con00{
+  font-size: 23px;
+  color: #666;
+  display: block;
+  float: left;
+  position: relative;
+  left: 70px;
+  top: -52px;
+}
+/*头部部分结束*/
+
+/*中间部分开始*/
+#bodyBox{
+    width: 100%;
+    background-color: #E93854;
+}
+#bodyBox .bg{
+    width: 990px;
+    height: 475px;
+    background : url('../img/2.png') no-repeat;
+    margin: 0px auto;
+}
+#bodyBox .bg .loginForm{
+    width: 346px;
+    height: 355px;
+    background-color: #FFFFFF;
+    position: relative;
+    top :40px;
+    float: right;
+    overflow: hidden;
+}
+#bodyBox .bg .loginForm .login-tab{
+    width: 173px;
+    height: 55px;
+    /*line-height: 55px;*/
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #F4F4F4;
+}
+#bodyBox .bg .loginForm .login-tab a{
+  font-size: 18px;
+}
+#bodyBox .bg .loginForm .login-tab a:hover{
+  color:#E4393C;
+  font-weight: 700;
+}
+#bodyBox .bg .loginForm .login-tab a.login_l{
+    width: 99%;
+    height: 18px;
+    line-height: 18px;
+    display: block;
+    position: relative;
+    top:17px;
+    border-right: 1px solid #F4F4F4;
+}
+#bodyBox .bg .loginForm .login-tab a.red{
+  width: 99%;
+  height: 18px;
+  line-height: 18px;
+  color:#E4393C;
+  display: block;
+  margin-top: 15px;
+  font-weight: 700;
+}
+#bodyBox .bg .loginForm .center{
+    width: 326px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border-right: 1px solid blue;
+}
+#bodyBox .bg .loginForm .center .msg{
+    width: 304px;
+    height: 23px;
+    line-height: 23px;
+    text-indent: 2em;
+    font-size: 12px;
+    color:#666;
+    background-color: #FEF4E5;
+    border: 1px solid #F6C090;
+}
+#bodyBox .bg .loginForm .center .msg .icon1{
+  width: 15px;
+  height: 17px;
+  display: block;
+  float: left;
+  position: relative;
+  left:10px;
+  top:3px;
+  background: url('../img/deng.png') no-repeat;
+}
+#bodyBox .bg .loginForm .center .item{
+    width: 304px;
+    height: 38px;
+    margin-top: 5px;
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid #BBBBBB;
+}
+#bodyBox .bg .loginForm .center .item .ls{
+  width: 35px;
+  height: 38px;
+  display: block;
+  border-right: 1px solid #BDBDBD;
+  float: left;
+}
+#bodyBox .bg .loginForm .center .item .icon2{
+    background: url('../img/ren.png') no-repeat;
+}
+#bodyBox .bg .loginForm .center .item .icon3{
+    background: url('../img/suo.png') no-repeat;
+}
+#bodyBox .bg .loginForm .center .item input{
+  width: 255px;
+  height: 38px;
+  border:none;
+  outline: none;
+  padding-left: 10px;
+}
+#bodyBox .bg .loginForm .center .last{
+    width: 306px;
+    margin-bottom: 20px;
+    float: left;
+}
+#bodyBox .bg .loginForm .center .last .l_left{
+  float: left;
+}
+#bodyBox .bg .loginForm .center .last .l_right{
+  float: right;
+}
+#bodyBox .bg .loginForm .center .last .l_right a{
+  font-size: 12px;
+  color:#666;
+  position:relative;top:-2px;
+}
+#bodyBox .bg .loginForm .center .last .l_right a:hover{
+  color:red;
+  text-decoration: underline;
+}
+#bodyBox .bg .loginForm .center .sub{
+  width: 304px;
+  height: 32px;
+  background-color: #E4393C;
+  border: 1px solid #E85356;
+  float: left;
+  color: #fff;
+  font-size: 20px;
+}
+#bodyBox .bg .loginForm .lists{
+  width: 310px;
+  padding-left: 20px;
+  overflow: hidden;
+  float: left;
+}
+
+#bodyBox .bg .loginForm .lists li{
+  float: left;
+}
+#bodyBox .bg .loginForm .lists li.extra{
+  float: right;
+}
+#bodyBox .bg .loginForm .lists .con{
+    font-size: 12px;
+    position: relative;
+    left: 5px;
+    top:-6px;
+}
+#bodyBox .bg .loginForm .lists li a:hover{
+  color: red;
+  text-decoration: underline;
+}
+#bodyBox .bg .loginForm .login-tab a.kkk{
+  color: #E4393C;
+  font-weight: 700;
+}
+#bodyBox .bg .loginForm .lists .line{
+  color: #ccc;
+  padding: 10px;
+  font-size: 10px;
+  position: relative;
+  top:-5px;
+}
+#bodyBox .bg .loginForm .ewm{
+      width: 326px;
+      float: left;
+      padding-left: 20px;
+      padding-top: 5px;
+      padding-bottom: 30px;
+      border-right: 1px solid blue;
+      position: absolute;
+      top: 61px;
+      background-color: #fff;
+    }
+#bodyBox .bg .loginForm .ewm{
+      display: none;
+}
+#bodyBox .bg .loginForm .ewm.show{
+      display: block;
+}
+#bodyBox .bg .loginForm .ewm div{
+      width: 164px;
+      height: 157px;
+      background: url('../img/2wm.png') no-repeat;
+      position: relative;
+      left: 69px;
+      top: -2px;
+    }
+#bodyBox .bg .loginForm .ewm .ewm1{
+      font-size: 12px;
+      position: absolute;
+      color: #666;
+      left: 100px;
+      top: 179px;
+    }
+#bodyBox .bg .loginForm .ewm .ewm1 span{
+     color: #666;
+}
+#bodyBox .bg .loginForm .ewm .ewm1 a{
+      color: red;
+    }
+#bodyBox .bg .loginForm .ewm .tpi li{
+      float: left;
+      top: 25px;
+    }
+#bodyBox .bg .loginForm .ewm .tpi li.m{
+      width:27px;
+      height: 30px;
+      background: url('../img/sy.png') no-repeat;
+      background-position:left;
+      position: relative;
+      left: 47px;
+    }
+#bodyBox .bg .loginForm .ewm .tpi li.k{
+      width:27px;
+      height: 30px;
+      background: url('../img/sy.png') no-repeat;
+      background-position:center;
+      position: relative;
+      left: 103px;
+    }
+#bodyBox .bg .loginForm .ewm .tpi li.g{
+      width:27px;
+      height: 30px;
+      background: url('../img/sy.png') no-repeat;
+      background-position:right;
+      position: relative;
+      left: 146px;
+    }
+#bodyBox .bg .loginForm .ewm .wzi{
+      color: #666;
+      font-size: 12px;
+      position: relative;
+      top: 18px
+    }
+#bodyBox .bg .loginForm .ewm .wzi span{
+      display: inline-block;
+      padding-left: 40px;
+      position: relative;
+      top: 29px;
+      left: 42px;
+    }
+/*中间部分结束*/
+/*尾部开始*/
+#last .bg1{
+    width: 990px;
+    height: 8px;
+    margin: 20px auto;
+}
+#last .bg1 .lists1 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  left: 90px;
+}
+#last .bg1 .lists1 li{
+    font-size: 12px;
+    padding-left: 16px;
+    float: left;
+}
+#last .bg1 .lists1 li a:hover{
+  color:red;
+  text-decoration: underline;
+}
+
+#last1 .lists2 li{
+  text-align: center;
+    width: 990px;
+    height: 50px;
+  color: #666;
+  margin: 0px auto;
+  font-size: 12px;
+
+  }
+
+/*尾部结束*/

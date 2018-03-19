@@ -1,0 +1,515 @@
+*{  margin:0;padding:0;
+  font-family: 'Microsoft Yahei';
+  }
+li{list-style-type:none;}
+a{text-decoration: none; color:#666 ;}
+body{background-color: #FFF;}
+/*搜索开始*/
+#shousuo .seckill{
+  right:3px;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  width: 97px;
+  background-color: #fff;
+  height: 100%;
+  line-height: 67px;
+}
+#shousuo .j_d{
+      position: relative;
+  margin-top: 19px;
+  float: left;
+  background: url(../img/yi_jia/1.png) no-repeat;
+  width: 270px;
+  height: 60px;
+}
+#shousuo .j_d .dianji a{
+  width: 183px;
+  height: 70px;
+  float: left;
+}
+#shousuo .G_c .quan{
+	    margin: 6px 4px 9px 7px;
+    float: left;
+    width: 22px;
+    height: 21px;
+    overflow: hidden;
+}
+#shousuo .G_c .j_1{
+	    float: right;
+    margin-right: 19px;
+}
+#shousuo .dropdown_1{
+	    position: absolute;
+    margin-top: 0;
+    left: 2px;
+    z-index: 1;
+    width: 100px;
+    font-size: 14px;
+    cursor: pointer;
+    top: 2px;
+    background-color: #f9f9f9;
+    font-family: 'Microsoft YaHei';
+}
+#shousuo .dropdown_1 .active{
+	    position: relative;
+    padding: 7px 0 7px 20px;
+    line-height: 17px;
+    overflow: hidden;
+    color: #666;
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+#shousuo .dropdown_1 .muse{
+	display: none;
+    border: solid #d8d8d8;
+    border-width: 0 1px 1px;
+        padding: 0px 0 2px 20px;
+    line-height: 28px;
+}
+#shousuo .dropdown_1 .muse li.red{
+	color: #B1191A;
+}
+#shousuo .sou .search .G_c a{
+	color: #666;
+}
+/*全部商品总类下*/
+#img{
+	width: 100%;
+	    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+    background: url(../img/conpons/h-g-circle.png) repeat-x left bottom #fff;
+}
+#img .img_1{
+	    position: relative;
+    height: 300px;
+	width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#img .img_1 .pink{
+    position: absolute;
+	width: 100%;
+    z-index: 1;
+    opacity: 1;
+    background-color: rgb(236, 158, 148);
+    text-align: center;
+}
+/*每日精选开始*/
+#chosen{
+	width: 100%;
+	    margin-bottom: 30px;
+    padding: 30px 0 0;
+    background: url(../img/conpons/h-g-circle.png) repeat-x left bottom #f7f7f7;
+}
+#chosen .li{
+	width: 1210px;
+	margin: 0 auto;
+}
+#chosen .chosen_1{
+	position: relative;
+    height: 38px;
+    margin-bottom: 35px;
+}
+#chosen .chosen_1 h3{
+	position: relative;
+    z-index: 2;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    font-size: 30px;
+    color: #e4393c;
+    font-weight: 400;
+}
+#chosen .chosen_1 h3 i{
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    margin-right: 10px;
+    vertical-align: middle;
+    overflow: hidden;
+    background: url(../img/conpons/quan-icons.png);
+    background-position: 1px -282px;
+}
+#chosen .chosen_2{
+position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#chosen .chosen_2 .mei{
+	background: #fff;
+	width: 590px;
+	position: relative;
+	height: 170px;
+    margin-bottom: 30px;
+	
+}
+#chosen .chosen_2 .mei .tu{
+	width: 200px;
+	float: left;
+  padding: 20px 0;
+  text-align: center;
+}
+#chosen .chosen_2 .mei .mei_1{
+	    float: left;
+    width: 230px;
+    padding: 27px 0 0;
+}
+#chosen .chosen_2 .mei .mei_1 .pri{
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+#chosen .chosen_2 .mei_1 .pri .p_1{
+	color: #74d2d4;
+	    float: left;
+    margin: 5px 0 0;
+    font-size: 24px;
+}
+#chosen .chosen_2 .mei_1 .pri .p_2{
+    float: left;
+	color: #74d2d4;
+    line-height: 50px;
+    margin: 0 10px 0 5px;
+    font-size: 60px;
+    font-weight: 700;
+}
+#chosen .chosen_2 .mei_1 .pri p{
+	    float: left;
+    line-height: 22px;
+    margin-top: 25px;
+	color: #74d2d4;
+}
+#chosen .chosen_2 .mei_1 .pri_1{
+	display: block;
+	    margin-right: 10px;
+	        font-size: 12px;
+}
+#chosen .chosen_2 .mei_1 .pri_2{
+	    line-height: 22px;
+	    font-size: 12px;
+	        margin-top: 5px;
+}
+#chosen .chosen_2 .mei_1 .pri_2 .c_1{
+	    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 200px;
+    cursor: default;
+    color: #999;
+}
+#chosen .chosen_2 .mei_1 .pri_2 .c_2{
+    color: #999;
+}
+#chosen .chosen_2 .mei_2{
+	  position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 130px;
+    padding: 30px 16px 20px;
+    background: #74d2d4;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+}
+#chosen .chosen_2 .mei_2 i{
+	display: block;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 170px;
+    background: url(../img/conpons/semi-circle.png) top center repeat-y;
+}
+#chosen .chosen_2 .mei_2 .box_1{
+	margin-bottom: 19px;
+}
+#chosen .chosen_2 .mei_2 a{
+	  position: relative;
+    display: inline-block;
+    width: 96px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 16px;
+    font-size: 14px;
+    overflow: hidden;
+}
+#chosen .chosen_2 .mei_2 a:hover{
+	background: #fff;
+	color: #197f81;
+}
+#chosen .tu img{
+	width: 60%;
+	cursor: pointer;
+}
+/*好券集市*/
+#quan{
+	width: 100%;
+	    margin-bottom: 30px;
+    padding: 30px 0 0;
+}
+#quan .li{
+	width: 1210px;
+	margin: 0 auto;
+}
+#quan .chosen_1{
+	position: relative;
+    height: 38px;
+    margin-bottom: 35px;
+}
+#quan .chosen_1 h3{
+	position: relative;
+    z-index: 2;
+    float: left;
+    height: 38px;
+        background-color: #fff;
+    line-height: 38px;
+    font-size: 30px;
+    color: #e4393c;
+    font-weight: 400;
+}
+#quan .chosen_1 h3 i{
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    margin-right: 10px;
+    vertical-align: middle;
+    overflow: hidden;
+    background: url(../img/conpons/quan-icons.png);
+    background-position: -78px -282px;
+}
+#quan .chosen_1 .zong{
+	    float: left;
+    position: relative;
+    top: 13px;
+    width: 145px;
+    height: 20px;
+    z-index: 2;
+    font-size: 18px;
+    color: #e4393c;
+    overflow: hidden;
+    background: url(../img/conpons/slogan.png) #fff no-repeat;
+    background-position: 0 -30px;
+}
+#quan .chosen_1 .zong_1{
+	    position: relative;
+    z-index: 2;
+    float: right;
+    background: #fff;
+}
+#quan .chosen_1 .zong_1 a{
+	font-size: 12px;
+	display: inline-block;
+    line-height: 32px;
+    padding: 0 20px;
+    margin: 3px 0 0 10px;
+    border: 1px solid #ccc;
+    color: #222;
+    border-radius: 18px;
+}
+#quan .chosen_1 .line{
+	    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #ffd3d4;
+    overflow: hidden;
+}
+#quan .chosen_2{
+	position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#quan .chosen_2 .mei{
+    width: 316px;
+    margin-bottom: 30px;
+        padding-right: 65px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+        position: relative;
+    height: 170px;
+}
+#quan .chosen_2 .mei .left{
+	padding: 25px 0 20px 15px;
+}
+#quan .chosen_2 .mei .pri_1{
+	    display: block;
+    margin-bottom: 10px;
+   overflow: hidden;
+    color: #c3c3c3;
+}
+#quan .chosen_2 .mei .pri_1 .p_1{
+	float: left;
+    margin: 5px 0 0;
+    font-size: 24px;
+
+}
+#quan .chosen_2 .mei .pri_1 .p_2{
+	    float: left;
+    line-height: 50px;
+    margin: 0 10px 0 5px;
+    font-size: 60px;
+    font-weight: 700;
+}
+#quan .chosen_2 .mei .pri_1 .text{
+	    float: left;
+    line-height: 22px;
+    font-size: 12px;
+}
+#quan .chosen_2 .mei .pri_1 .t_2{
+    color: #666;
+}
+#quan .chosen_2 .mei .bottom{
+	line-height: 22px;
+    font-size: 12px;
+    color: #999;
+}
+#quan .chosen_2 .mei .right{
+	    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 133px;
+    padding-left: 36px;
+    padding-right: 24px;
+    line-height: 24px;
+    color: #fff;
+    padding-top: 37px;
+    font-size: 14px;
+    background: #c3c3c3;
+}
+#quan .chosen_2 .mei .right a i{
+display: block;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 170px;
+    background: url(../img/conpons/semi-circle.png) top center repeat-y;
+}
+#quan .chosen_2 .mei .right a{
+	color: #868686;
+}
+#quan .chosen_2 .mei .ling{
+	    width: 69px;
+    height: 69px;
+        right: 90px;
+    line-height: 99em;
+    overflow: hidden;
+    bottom: 5px;
+    position: absolute;
+    background: url(../img/conpons/quan-state.png) no-repeat;
+	background-position: 0px -81px;
+}
+#quan .chosen_2 .mei .pri{
+	color: #74d2d4;
+}
+#quan .chosen_2 .mei .right_1{
+	background: #74d2d4;
+}
+#quan .chosen_2 .mei .right_1 a{
+	color: #fff;
+}
+#quan .chosen_2 .mei .right_1 a:hover{
+	color: #197f81;
+}
+#quan .chosen_2 .mei.show{
+	box-shadow: 0px 1px 7px 1px #ccc;
+}
+/*更多好券*/
+#good{
+	width: 1210px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+#good i{
+	display: block;
+    width: 94px;
+    height: 58px;
+    margin: 0 auto 10px;
+	background: url(../img/conpons/quan-s-joy.png) no-repeat;
+}
+#good .good_1{
+	    position: relative;
+    text-align: center;
+}
+#good .good_1 .line{
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #ebebeb;
+    overflow: hidden;	
+}
+#good .good_1 .wen{
+	    position: relative;
+    display: inline-block;
+    z-index: 2;
+    padding: 0 90px;
+    background: #fff;
+    font-size: 14px;
+}
+#good .good_1 .wen a{
+	 color: #747474;
+}
+ #good .good_1 .wen a:hover{
+	 color: darkred;
+}  
+/*右边固定*/
+#quan_m{
+	  position: fixed;
+    right: 0px;
+    bottom: 20px;
+    display: none;
+    width: 100px;
+    line-height: 30px;
+    padding: 4px 0;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    font-size: 14px;
+    z-index: 10;
+    background: #fff;
+}
+#quan_m .linr{
+	    position: absolute;
+    left: 50%;
+    top: -1px;
+    width: 12px;
+    height: 6px;
+    margin-left: -3px;
+    overflow: hidden;
+    background: url(../img/conpons/sc-01.png) no-repeat;
+}
+#quan_m .botttom{
+	 	    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100px;
+    height: 4px;
+    background: url(../img/conpons/sc-02.png) repeat-x;
+}
+#quan_m a{ 
+	color: #333;
+}
+#quan_m a.red{
+	color: red;
+}
+#quan_m a:hover{
+	color: red;
+}
+#quan_m.show{
+	display: block;
+}
+#Zuihou .lianxi .lists1 li a{
+	color: #999;
+}
